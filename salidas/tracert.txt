@@ -1,0 +1,16 @@
+C:\Users\LAB4-PC05\Desktop\examen-redes-alumno-alarcongonzalo>tracert clarin.com
+
+Traza a la dirección clarin.com [104.18.7.141]
+sobre un máximo de 30 saltos:
+
+  1    <1 ms    <1 ms    <1 ms  10.101.101.1
+  2    <1 ms    <1 ms    <1 ms  192.168.2.1
+  3     7 ms     3 ms     3 ms  200.51.241.1
+  4     3 ms     3 ms     3 ms  213.140.39.119
+  5     3 ms     3 ms     3 ms  213.140.39.118
+  6     3 ms     2 ms     3 ms  94.142.117.138
+  7     4 ms     3 ms     4 ms  cloudflare-ae70-0-grtbueba1.net.telefonicaglobalsolutions.com [94.142.103.101]
+  8    51 ms     4 ms     3 ms  198.41.228.7
+  9     3 ms     3 ms     3 ms  104.18.7.141
+
+Traza completa.

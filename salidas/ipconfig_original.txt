@@ -1,0 +1,45 @@
+Configuración IP de Windows
+
+   Nombre de host. . . . . . . . . : DESKTOP-PJ78IOE
+   Sufijo DNS principal  . . . . . :
+   Tipo de nodo. . . . . . . . . . : híbrido
+   Enrutamiento IP habilitado. . . : no
+   Proxy WINS habilitado . . . . . : no
+
+Adaptador de Ethernet Ethernet:
+
+   Sufijo DNS específico para la conexión. . :
+   Descripción . . . . . . . . . . . . . . . : Realtek PCIe GbE Family Controller
+   Dirección física. . . . . . . . . . . . . : F4-B5-20-38-69-75
+   DHCP habilitado . . . . . . . . . . . . . : sí
+   Configuración automática habilitada . . . : sí
+   Vínculo: dirección IPv6 local. . . : fe80::9288:8f6e:d5c1:ddba%14(Preferido)
+   Dirección IPv4. . . . . . . . . . . . . . : 10.101.101.11(Preferido)
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Concesión obtenida. . . . . . . . . . . . : miércoles, 3 de junio de 2026 16:31:22
+   La concesión expira . . . . . . . . . . . : miércoles, 3 de junio de 2026 17:31:22
+   Puerta de enlace predeterminada . . . . . : 10.101.101.1
+   Servidor DHCP . . . . . . . . . . . . . . : 10.101.101.1
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 116700448
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-29-5C-C8-19-F4-B5-20-38-69-75
+   Servidores DNS. . . . . . . . . . . . . . : 1.1.1.3
+                                       1.0.0.3
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
+
+Adaptador de Ethernet VirtualBox Host-Only Network:
+
+   Sufijo DNS específico para la conexión. . :
+   Descripción . . . . . . . . . . . . . . . : VirtualBox Host-Only Ethernet Adapter
+   Dirección física. . . . . . . . . . . . . : 0A-00-27-00-00-02
+   DHCP habilitado . . . . . . . . . . . . . : no
+   Configuración automática habilitada . . . : sí
+   Vínculo: dirección IPv6 local. . . : fe80::57e9:7765:7518:96e8%2(Preferido)
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.56.1(Preferido)
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . :
+   IAID DHCPv6 . . . . . . . . . . . . . . . : 168427559
+   DUID de cliente DHCPv6. . . . . . . . . . : 00-01-00-01-29-5C-C8-19-F4-B5-20-38-69-75
+   Servidores DNS. . . . . . . . . . . . . . : fec0:0:0:ffff::1%1
+                                       fec0:0:0:ffff::2%1
+                                       fec0:0:0:ffff::3%1
+   NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado

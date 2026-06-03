@@ -1,0 +1,6 @@
+C:\Users\LAB4-PC05\Desktop\examen-redes-alumno-alarcongonzalo>nslookup -type=MX clarin.com
+Servidor:  one.one.one.one
+Address:  1.1.1.1
+
+Respuesta no autoritativa:
+clarin.com      MX preference = 0, mail exchanger = clarin-com.mail.protection.outlook.com
