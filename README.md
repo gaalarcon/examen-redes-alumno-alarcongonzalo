@@ -1,5 +1,5 @@
 Salida completa de ipconfig /all (luego de configurar ip estática)
-
+```
 Configuración IP de Windows
 
    Nombre de host. . . . . . . . . : DESKTOP-PJ78IOE
@@ -42,10 +42,10 @@ Adaptador de Ethernet VirtualBox Host-Only Network:
                                        fec0:0:0:ffff::2%1
                                        fec0:0:0:ffff::3%1
    NetBIOS sobre TCP/IP. . . . . . . . . . . : habilitado
-
+```
 
 Salida del ping
-
+```
 Haciendo ping a clarin.com [104.18.7.141] con 32 bytes de datos:
 Respuesta desde 104.18.7.141: bytes=32 tiempo=3ms TTL=57
 Respuesta desde 104.18.7.141: bytes=32 tiempo=3ms TTL=57
@@ -57,7 +57,7 @@ Estadísticas de ping para 104.18.7.141:
     (0% perdidos),
 Tiempos aproximados de ida y vuelta en milisegundos:
     Mínimo = 3ms, Máximo = 4ms, Media = 3ms
-
+```
 
 
 ¿Que criterio usaste para elegir tu IP estática?
@@ -69,7 +69,7 @@ Rta: El uso de DNS distintos a Google puede ser una política de red para evitar
 
 
 Salida del Tracert
-
+```
 Traza a la dirección clarin.com [104.18.7.141]
 sobre un máximo de 30 saltos:
 
@@ -84,10 +84,10 @@ sobre un máximo de 30 saltos:
   9     3 ms     3 ms     3 ms  104.18.7.141
 
 Traza completa.
-
+```
 
 Salida del Netstat
-
+```
   TCP    10.101.101.20:29811    172.172.255.217:443    ESTABLISHED
   TCP    10.101.101.20:29815    104.18.39.21:443       ESTABLISHED
   TCP    10.101.101.20:29817    172.172.255.217:443    ESTABLISHED
@@ -109,7 +109,7 @@ Salida del Netstat
   TCP    10.101.101.20:29960    95.101.24.75:443       ESTABLISHED
   TCP    10.101.101.20:29961    52.123.131.14:443      TIME_WAIT
   TCP    10.101.101.20:29962    52.168.112.67:443      ESTABLISHED
-
+```
 
 En el tracert, indicá el número de salto donde se ve el mayor aumento de latencia (medido en ms). ¿Qué podrías inferir sobre la ubicación geográfica o el tipo de enlace en ese punto?
 Rta: El mayor aumento de latencia se observa en el salto X, donde el tiempo aumenta considerablemente. Esto podría indicar un enlace de larga distancia, posiblemente internacional, o un nodo de red congestionado.
@@ -120,6 +120,7 @@ Rta: Sí, existen conexiones establecidas al puerto 443. Ese puerto corresponde 
 
 
 Pegá la salida del nslookup clarin.com
+```
 Servidor:  one.one.one.one
 Address:  1.1.1.1
 
@@ -130,18 +131,20 @@ Addresses:  2606:4700::6812:78d
           104.18.6.141
           104.18.7.141
 
-
+```
 
 Pegá la salida del nslookup -type=MX
+```
 Servidor:  one.one.one.one
 Address:  1.1.1.1
 
 Respuesta no autoritativa:
 clarin.com      MX preference = 0, mail exchanger = clarin-com.mail.protection.outlook.com
 
-
+```
 
 Pegá la salida del nslookup google.com 1.1.1.1
+```
 Servidor:  one.one.one.one
 Address:  1.1.1.1
 
@@ -150,7 +153,7 @@ Nombre:  google.com
 Addresses:  2800:3f0:4002:817::200e
           172.217.28.14
 
-
+```
 
 ¿Qué dirección IP devuelve el primer nslookup para clarin.com?
 Rta: El primer nslookup para clarin.com devolvió las direcciones IPv4 104.18.6.141 y 104.18.7.141, además de direcciones IPv6 asociadas al dominio.
@@ -165,10 +168,10 @@ Rta: Sí, el servidor DNS por defecto coincide con el configurado manualmente, y
 
 
 Actualización para rama feature-diagnostico
-
+```
 C:\Users\LAB4-PC05\Desktop\examen-redes-alumno-alarcongonzalo>git branch
 * feature-diagnostico
   main
-
+```
 ¿Qué ventaja tiene trabajar con Merge Requests/Pull Request en lugar de hacer commit directo sobre main? Mencioná al menos dos beneficios relacionados con el trabajo en equipo y la revisión de código.
 Los Pull Request permiten revisar cambios antes de integrarlos a la rama principal. Esto facilita el trabajo en equipo, ya que otros integrantes pueden detectar errores, sugerir mejoras y validar modificaciones antes de incorporarlas al proyecto. Además, ayudan a mantener un historial más organizado y seguro del desarrollo.
